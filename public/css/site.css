@@ -1,0 +1,147 @@
+  @font-face 
+  {
+    font-family: 'Insaniburger';
+    src: url('fonts/Insanibu.ttf') format('truetype')
+  }
+
+  .title 
+  {
+    background-color: #30B389;
+    color: #f2f2f2;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  body
+  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Insaniburger';
+    font-style: normal;
+  }
+
+  .fit-picture
+  {
+    float: right;
+    display: block;
+  }
+
+  .menu 
+  {
+    background-color: #B35942;
+    overflow: hidden;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    font-weight:18px;
+    letter-spacing: .1rem;
+  }
+    
+  .menu a
+  {
+    float: left;
+    display: block;
+    color: #FF9478;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu a:hover 
+  {
+    background-color: #FFA891;
+    color: #000;
+  }
+    
+  .menu a.active:hover 
+  {
+    background-color: #FFA891;
+    color: #000;
+  }
+
+  .auth 
+  {
+    float:right;
+  }
+
+  .odd_content 
+  {
+    padding-top: 60px;
+    background-color: white;
+    color: #B35942;
+    font-weight:15px;
+    letter-spacing: .05rem;
+  }
+  
+  .odd_content h1 
+  {
+    font-weight:24px;
+  }
+  
+  .odd_content form 
+  {
+    border-style: solid;
+    border-color: #FFA891;
+  }
+  
+  .odd_content input 
+  {
+    background-color : white;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #FFA891;
+  }
+
+  .even_content 
+  {
+    padding-top: 60px;
+    background-color: #B35942;
+    color: white;
+    font-weight:15px;
+    letter-spacing: .05rem;
+  }
+  
+  .even_content h1 
+  {
+    font-weight:24px;
+  }
+  
+  .even_content form 
+  {
+    border-style: solid;
+    border-color: white;
+  }
+  
+  .even_content input 
+  {
+    background-color : #B35942;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: white;
+  }  
+
+  footer 
+  {
+    background-color: #FF9478;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    z-index:1;
+    font-weight:18px;
+    letter-spacing: .1rem;
+  }
+  
+  .element:hover 
+  {
+    background-color: #B35942;
+  }
+
+  .example 
+  {
+    float: left;
+    display: block;
+    width: 50%;
+    color: #B35942;
+    text-decoration: none;
+  }
